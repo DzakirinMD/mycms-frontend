@@ -95,23 +95,23 @@ function Hero() {
             perfect apps development processes
           </TypographyH2>
           <Button
-            component={RouterLink}
-            to="/dashboards/crypto"
-            size="large"
-            variant="contained"
+              sx={{ml: 2}}
+              component={RouterLink}
+              to="/dashboards/crypto"
+              size="large"
+              variant="contained"
           >
-            Browse Live Preview
+            Login
           </Button>
           <Button
-            sx={{ ml: 2 }}
-            component="a"
-            target="_blank"
-            rel="noopener"
-            href="https://bloomui.com/product/tokyo-free-white-react-typescript-material-ui-admin-dashboard"
-            size="large"
-            variant="text"
+              sx={{ml: 2}}
+              component={RouterLink}
+              to="/management/profile/details"
+              rel="noopener"
+              size="large"
+              variant="contained"
           >
-            Key Features
+            Register
           </Button>
           <Grid container spacing={3} mt={5}>
             <Grid item md={6}>

@@ -34,7 +34,7 @@ function StatusMaintenance() {
       </Helmet>
       <MainContent>
         <Container maxWidth="md">
-          <Logo />
+          {/*<Logo />*/}
           <Box textAlign="center">
             <Container maxWidth="xs">
               <Typography variant="h2" sx={{ mt: 4, mb: 2 }}>
